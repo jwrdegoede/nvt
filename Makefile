@@ -15,7 +15,7 @@
 
 # CC=arm-linux-gnueabi-gcc
 CC=gcc
-OPT = -Wall -m32 -static -g -I.
+OPT = -Wall -static -g -I.
 PROGS = v4l2n v4l2n-example raw2pnm pnm2raw yuv2yuv pnm2yuv txt2raw pnm2txt
 
 .PHONY: all clean
